@@ -35,3 +35,5 @@ reports/tables/*
 
 !reports/tables/final/
 !reports/tables/final/**
+# Notebook HTML exports
+notebooks/*.html
