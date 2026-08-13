@@ -1,0 +1,198 @@
+{
+  "version": "v1_pre_pilot",
+  "core_aspects": {
+    "efficacy_results": {
+      "display_name": "Efficacy / Results",
+      "description": "Visible or perceived effectiveness and outcome of the product.",
+      "keywords": [
+        "works",
+        "worked",
+        "effective",
+        "results",
+        "difference",
+        "improved",
+        "improvement",
+        "glow",
+        "glowing",
+        "smooth",
+        "smoother",
+        "bright",
+        "brighter"
+      ]
+    },
+    "hydration_dryness": {
+      "display_name": "Hydration / Dryness",
+      "description": "Moisture, hydration, dryness, dehydration or stripping sensation.",
+      "keywords": [
+        "hydrate",
+        "hydrated",
+        "hydrating",
+        "hydration",
+        "moisture",
+        "moisturize",
+        "moisturized",
+        "dry",
+        "drying",
+        "dehydrated",
+        "stripping",
+        "strip"
+      ]
+    },
+    "texture_finish": {
+      "display_name": "Texture / Finish",
+      "description": "Physical feel or finish: sticky, greasy, heavy, lightweight, silky, matte, shiny.",
+      "keywords": [
+        "texture",
+        "sticky",
+        "greasy",
+        "oily",
+        "heavy",
+        "lightweight",
+        "silky",
+        "smooth",
+        "matte",
+        "shiny",
+        "finish",
+        "tacky"
+      ]
+    },
+    "irritation_sensitivity": {
+      "display_name": "Irritation / Sensitivity",
+      "description": "Irritation, redness, burning, stinging, sensitivity or reactions.",
+      "keywords": [
+        "irritation",
+        "irritated",
+        "irritating",
+        "redness",
+        "red",
+        "burn",
+        "burning",
+        "sting",
+        "stinging",
+        "sensitive",
+        "reaction",
+        "rash"
+      ]
+    },
+    "acne_breakouts": {
+      "display_name": "Acne / Breakouts",
+      "description": "Acne, pimples, breakouts, clogged pores, blackheads or whiteheads.",
+      "keywords": [
+        "acne",
+        "breakout",
+        "breakouts",
+        "pimple",
+        "pimples",
+        "clogged",
+        "pores",
+        "blackheads",
+        "whiteheads",
+        "blemish",
+        "blemishes"
+      ]
+    },
+    "fragrance_smell": {
+      "display_name": "Fragrance / Smell",
+      "description": "Scent, fragrance, odor, smell or perfume perception.",
+      "keywords": [
+        "smell",
+        "smells",
+        "scent",
+        "fragrance",
+        "fragranced",
+        "odor",
+        "odour",
+        "perfume",
+        "unscented"
+      ]
+    },
+    "application_absorption": {
+      "display_name": "Application / Absorption",
+      "description": "Ease of application, spreading, absorption, layering or product use.",
+      "keywords": [
+        "apply",
+        "application",
+        "spread",
+        "spreads",
+        "absorb",
+        "absorbs",
+        "absorbed",
+        "absorption",
+        "layer",
+        "layers",
+        "rubs",
+        "blend",
+        "blends"
+      ]
+    },
+    "packaging": {
+      "display_name": "Packaging",
+      "description": "Bottle, pump, jar, tube, cap, dispenser, leakage or packaging usability.",
+      "keywords": [
+        "packaging",
+        "package",
+        "bottle",
+        "pump",
+        "jar",
+        "tube",
+        "cap",
+        "dispenser",
+        "leak",
+        "leaking",
+        "container"
+      ]
+    },
+    "price_value": {
+      "display_name": "Price / Value",
+      "description": "Price, affordability, expensive/cheap perception, value for money or quantity for price.",
+      "keywords": [
+        "price",
+        "priced",
+        "expensive",
+        "cheap",
+        "affordable",
+        "worth",
+        "value",
+        "money",
+        "cost",
+        "costs",
+        "overpriced"
+      ]
+    }
+  },
+  "watchlist": {
+    "ingredients_formula": {
+      "display_name": "Ingredients / Formula",
+      "keywords": [
+        "ingredient",
+        "ingredients",
+        "formula",
+        "formulation",
+        "reformulated",
+        "reformulation"
+      ]
+    },
+    "sun_whitecast": {
+      "display_name": "SPF / White Cast",
+      "keywords": [
+        "spf",
+        "sunscreen",
+        "sun protection",
+        "white cast",
+        "whitecast"
+      ]
+    },
+    "pilling_layering": {
+      "display_name": "Pilling / Layering",
+      "keywords": [
+        "pill",
+        "pilling",
+        "balls up",
+        "balling up",
+        "layers well",
+        "layering",
+        "under makeup"
+      ]
+    }
+  }
+}

@@ -1,0 +1,62 @@
+test_id,expected_aspect_or_case,expected_sentiment_or_behavior,review_text
+T001,efficacy_results,positive,My skin looks smoother and brighter after using this serum for two weeks.
+T002,efficacy_results,positive,This treatment really helped reduce the dark spots on my cheeks.
+T003,efficacy_results,negative,I have used this for a month and I cannot see any improvement at all.
+T004,efficacy_results,negative,This did absolutely nothing for my skin.
+T005,efficacy_results,neutral,"I have only used it twice, so it is too early to tell whether it works."
+T006,hydration_dryness,positive,My skin feels hydrated all day and no longer gets flaky around my nose.
+T007,hydration_dryness,positive,This moisturizer keeps my dry skin comfortable without feeling heavy.
+T008,hydration_dryness,negative,This cleanser leaves my face tight and dry after every wash.
+T009,hydration_dryness,negative,My skin felt even drier after using this cream.
+T010,hydration_dryness,neutral,"It gives a little hydration, but not enough for winter."
+T011,texture_finish,positive,The texture is silky and leaves a smooth finish on my skin.
+T012,texture_finish,positive,It feels lightweight and never greasy.
+T013,texture_finish,negative,This cream feels sticky and heavy on my face.
+T014,texture_finish,negative,It leaves an oily film that I really dislike.
+T015,texture_finish,neutral,"The texture is fine, nothing special."
+T016,irritation_sensitivity,positive,This formula feels gentle and does not irritate my sensitive skin.
+T017,irritation_sensitivity,positive,"My skin usually reacts easily, but this product feels very soothing."
+T018,irritation_sensitivity,negative,This serum made my skin sting and turn red within minutes.
+T019,irritation_sensitivity,negative,I had burning and irritation after the first application.
+T020,irritation_sensitivity,neutral,"I felt a slight tingling sensation, but it disappeared quickly."
+T021,acne_breakouts,positive,My breakouts have noticeably reduced since I started using this product.
+T022,acne_breakouts,positive,This helped clear the small pimples on my forehead.
+T023,acne_breakouts,negative,This cream caused tiny bumps all over my chin.
+T024,acne_breakouts,negative,I started breaking out after three days of using it.
+T025,acne_breakouts,neutral,I have not noticed much change in my acne yet.
+T026,fragrance_smell,positive,"The scent is fresh, pleasant and very subtle."
+T027,fragrance_smell,positive,I love the light floral smell of this cream.
+T028,fragrance_smell,negative,The fragrance is much too strong and gives me a headache.
+T029,fragrance_smell,negative,It smells artificial and unpleasant.
+T030,fragrance_smell,neutral,The scent is noticeable but it does not bother me.
+T031,application_absorption,positive,It spreads easily and absorbs into my skin in seconds.
+T032,application_absorption,positive,The serum sinks in quickly without leaving residue.
+T033,application_absorption,negative,It takes forever to absorb and just sits on top of my skin.
+T034,application_absorption,negative,This product is difficult to spread evenly.
+T035,application_absorption,neutral,It absorbs at an average speed.
+T036,packaging,positive,The pump works perfectly and makes the product easy to dispense.
+T037,packaging,positive,I like the sturdy bottle and hygienic packaging.
+T038,packaging,negative,The pump stopped working after one week.
+T039,packaging,negative,The bottle leaks whenever I travel with it.
+T040,packaging,neutral,The packaging is basic but functional.
+T041,price_value,positive,"It is expensive, but a little goes a long way so I think it is worth it."
+T042,price_value,positive,Great value for the amount of product you get.
+T043,price_value,negative,It is far too expensive for such a small bottle.
+T044,price_value,negative,"For this price, I expected much better results."
+T045,price_value,neutral,The price seems average compared with similar products.
+T046,multi,mixed,"This moisturizer hydrates my skin really well, but the fragrance is much too strong for me."
+T047,multi,mixed,"The texture feels luxurious, but the pump stopped working after one week."
+T048,multi,mixed,"It works well, but it is far too expensive for the amount you get."
+T049,multi,mixed,The cream smells amazing but unfortunately caused tiny bumps on my forehead.
+T050,multi,mixed,It feels sticky on my face and takes forever to absorb.
+T051,multi,mixed,"My skin feels soft and hydrated, but I dislike the greasy finish."
+T052,multi,mixed,"The cleanser is gentle and effective, but the bottle leaks constantly."
+T053,multi,mixed,"It absorbs quickly and smells nice, but it did not improve my skin at all."
+T054,boundary,none_expected,I have very dry skin and bought this because everyone recommended it.
+T055,boundary,texture_finish_positive,"I have oily skin, but this product does not make my face greasy."
+T056,boundary,efficacy_results_positive,It calmed the redness on my cheeks and made my skin look healthier.
+T057,boundary,none_expected,I usually have sensitive skin and I bought this during a sale.
+T058,boundary,none_expected,The ingredient list contains niacinamide and ceramides.
+T059,boundary,none_expected,I gave it five stars because my friend recommended it.
+T060,boundary,hydration_dryness_negative,"Even though I have combination skin, this product made my cheeks feel dry."
+T061,boundary,irritation_sensitivity_negative,My face started burning right after I applied it.

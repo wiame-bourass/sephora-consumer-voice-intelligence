@@ -1,0 +1,85 @@
+test_id,expected_aspect_or_case,expected_sentiment_or_behavior,review_text,predicted_aspect,predicted_sentiment,aspect_probability,aspect_threshold,sentiment_confidence
+T001,efficacy_results,positive,My skin looks smoother and brighter after using this serum for two weeks.,efficacy_results,positive,0.7592,0.55,0.9371
+T002,efficacy_results,positive,This treatment really helped reduce the dark spots on my cheeks.,efficacy_results,positive,0.7551,0.55,0.9287
+T003,efficacy_results,negative,I have used this for a month and I cannot see any improvement at all.,efficacy_results,negative,0.5855,0.55,0.9157
+T004,efficacy_results,negative,This did absolutely nothing for my skin.,efficacy_results,negative,0.6176,0.55,0.9086
+T005,efficacy_results,neutral,"I have only used it twice, so it is too early to tell whether it works.",efficacy_results,negative,0.5636,0.55,0.871
+T006,hydration_dryness,positive,My skin feels hydrated all day and no longer gets flaky around my nose.,hydration_dryness,positive,0.9176,0.8,0.9232
+T006,hydration_dryness,positive,My skin feels hydrated all day and no longer gets flaky around my nose.,texture_finish,positive,0.7246,0.5,0.9133
+T007,hydration_dryness,positive,This moisturizer keeps my dry skin comfortable without feeling heavy.,hydration_dryness,positive,0.8969,0.8,0.9321
+T007,hydration_dryness,positive,This moisturizer keeps my dry skin comfortable without feeling heavy.,texture_finish,positive,0.8211,0.5,0.9338
+T008,hydration_dryness,negative,This cleanser leaves my face tight and dry after every wash.,hydration_dryness,positive,0.8813,0.8,0.849
+T008,hydration_dryness,negative,This cleanser leaves my face tight and dry after every wash.,texture_finish,negative,0.7506,0.5,0.6246
+T009,hydration_dryness,negative,My skin felt even drier after using this cream.,hydration_dryness,positive,0.8495,0.8,0.5625
+T009,hydration_dryness,negative,My skin felt even drier after using this cream.,texture_finish,negative,0.7107,0.5,0.8016
+T010,hydration_dryness,neutral,"It gives a little hydration, but not enough for winter.",hydration_dryness,neutral,0.9053,0.8,0.5472
+T010,hydration_dryness,neutral,"It gives a little hydration, but not enough for winter.",texture_finish,neutral,0.6045,0.5,0.6463
+T011,texture_finish,positive,The texture is silky and leaves a smooth finish on my skin.,texture_finish,positive,0.9063,0.5,0.8974
+T012,texture_finish,positive,It feels lightweight and never greasy.,texture_finish,positive,0.8918,0.5,0.8045
+T013,texture_finish,negative,This cream feels sticky and heavy on my face.,texture_finish,negative,0.8999,0.5,0.9386
+T014,texture_finish,negative,It leaves an oily film that I really dislike.,texture_finish,negative,0.7702,0.5,0.9504
+T015,texture_finish,neutral,"The texture is fine, nothing special.",texture_finish,neutral,0.8325,0.5,0.4446
+T016,irritation_sensitivity,positive,This formula feels gentle and does not irritate my sensitive skin.,texture_finish,positive,0.6098,0.5,0.8979
+T016,irritation_sensitivity,positive,This formula feels gentle and does not irritate my sensitive skin.,irritation_sensitivity,positive,0.8808,0.75,0.8877
+T017,irritation_sensitivity,positive,"My skin usually reacts easily, but this product feels very soothing.",texture_finish,positive,0.8044,0.5,0.9324
+T018,irritation_sensitivity,negative,This serum made my skin sting and turn red within minutes.,efficacy_results,positive,0.5986,0.55,0.931
+T018,irritation_sensitivity,negative,This serum made my skin sting and turn red within minutes.,irritation_sensitivity,negative,0.8752,0.75,0.8826
+T019,irritation_sensitivity,negative,I had burning and irritation after the first application.,irritation_sensitivity,negative,0.8519,0.75,0.947
+T020,irritation_sensitivity,neutral,"I felt a slight tingling sensation, but it disappeared quickly.",texture_finish,negative,0.5495,0.5,0.9269
+T020,irritation_sensitivity,neutral,"I felt a slight tingling sensation, but it disappeared quickly.",irritation_sensitivity,negative,0.8031,0.75,0.9442
+T021,acne_breakouts,positive,My breakouts have noticeably reduced since I started using this product.,acne_breakouts,negative,0.8925,0.75,0.5528
+T022,acne_breakouts,positive,This helped clear the small pimples on my forehead.,acne_breakouts,positive,0.8587,0.75,0.891
+T023,acne_breakouts,negative,This cream caused tiny bumps all over my chin.,efficacy_results,negative,0.6181,0.55,0.5509
+T023,acne_breakouts,negative,This cream caused tiny bumps all over my chin.,texture_finish,negative,0.5034,0.5,0.9397
+T023,acne_breakouts,negative,This cream caused tiny bumps all over my chin.,irritation_sensitivity,negative,0.7972,0.75,0.9456
+T024,acne_breakouts,negative,I started breaking out after three days of using it.,acne_breakouts,negative,0.9235,0.75,0.9523
+T025,acne_breakouts,neutral,I have not noticed much change in my acne yet.,NONE,NONE,,,
+T026,fragrance_smell,positive,"The scent is fresh, pleasant and very subtle.",fragrance_smell,positive,0.9438,0.6,0.8462
+T027,fragrance_smell,positive,I love the light floral smell of this cream.,fragrance_smell,positive,0.9328,0.6,0.899
+T028,fragrance_smell,negative,The fragrance is much too strong and gives me a headache.,fragrance_smell,negative,0.9372,0.6,0.9442
+T029,fragrance_smell,negative,It smells artificial and unpleasant.,fragrance_smell,negative,0.9466,0.6,0.5471
+T030,fragrance_smell,neutral,The scent is noticeable but it does not bother me.,fragrance_smell,positive,0.9465,0.6,0.513
+T031,application_absorption,positive,It spreads easily and absorbs into my skin in seconds.,texture_finish,positive,0.688,0.5,0.927
+T031,application_absorption,positive,It spreads easily and absorbs into my skin in seconds.,application_absorption,positive,0.9087,0.85,0.9179
+T032,application_absorption,positive,The serum sinks in quickly without leaving residue.,texture_finish,positive,0.5087,0.5,0.4995
+T032,application_absorption,positive,The serum sinks in quickly without leaving residue.,application_absorption,positive,0.8522,0.85,0.5652
+T033,application_absorption,negative,It takes forever to absorb and just sits on top of my skin.,texture_finish,positive,0.6891,0.5,0.7333
+T033,application_absorption,negative,It takes forever to absorb and just sits on top of my skin.,application_absorption,positive,0.8759,0.85,0.8464
+T034,application_absorption,negative,This product is difficult to spread evenly.,texture_finish,negative,0.5038,0.5,0.9058
+T035,application_absorption,neutral,It absorbs at an average speed.,texture_finish,positive,0.6106,0.5,0.7158
+T035,application_absorption,neutral,It absorbs at an average speed.,application_absorption,positive,0.8889,0.85,0.6502
+T036,packaging,positive,The pump works perfectly and makes the product easy to dispense.,packaging,positive,0.8663,0.55,0.9176
+T037,packaging,positive,I like the sturdy bottle and hygienic packaging.,packaging,positive,0.9243,0.55,0.9151
+T038,packaging,negative,The pump stopped working after one week.,packaging,negative,0.7233,0.55,0.8109
+T039,packaging,negative,The bottle leaks whenever I travel with it.,packaging,negative,0.8802,0.55,0.8187
+T040,packaging,neutral,The packaging is basic but functional.,packaging,neutral,0.9227,0.55,0.6411
+T041,price_value,positive,"It is expensive, but a little goes a long way so I think it is worth it.",price_value,negative,0.8944,0.75,0.9284
+T042,price_value,positive,Great value for the amount of product you get.,NONE,NONE,,,
+T043,price_value,negative,It is far too expensive for such a small bottle.,packaging,negative,0.8462,0.55,0.9181
+T043,price_value,negative,It is far too expensive for such a small bottle.,price_value,negative,0.7811,0.75,0.9216
+T044,price_value,negative,"For this price, I expected much better results.",price_value,negative,0.8818,0.75,0.8279
+T045,price_value,neutral,The price seems average compared with similar products.,price_value,neutral,0.8854,0.75,0.5212
+T046,multi,mixed,"This moisturizer hydrates my skin really well, but the fragrance is much too strong for me.",texture_finish,negative,0.5845,0.5,0.9295
+T046,multi,mixed,"This moisturizer hydrates my skin really well, but the fragrance is much too strong for me.",fragrance_smell,negative,0.9096,0.6,0.9367
+T047,multi,mixed,"The texture feels luxurious, but the pump stopped working after one week.",texture_finish,negative,0.8116,0.5,0.4341
+T047,multi,mixed,"The texture feels luxurious, but the pump stopped working after one week.",packaging,negative,0.563,0.55,0.5041
+T048,multi,mixed,"It works well, but it is far too expensive for the amount you get.",price_value,negative,0.8823,0.75,0.9371
+T049,multi,mixed,The cream smells amazing but unfortunately caused tiny bumps on my forehead.,fragrance_smell,negative,0.941,0.6,0.5352
+T050,multi,mixed,It feels sticky on my face and takes forever to absorb.,texture_finish,negative,0.8852,0.5,0.938
+T051,multi,mixed,"My skin feels soft and hydrated, but I dislike the greasy finish.",hydration_dryness,negative,0.8822,0.8,0.7523
+T051,multi,mixed,"My skin feels soft and hydrated, but I dislike the greasy finish.",texture_finish,negative,0.8399,0.5,0.7417
+T052,multi,mixed,"The cleanser is gentle and effective, but the bottle leaks constantly.",texture_finish,positive,0.5617,0.5,0.917
+T052,multi,mixed,"The cleanser is gentle and effective, but the bottle leaks constantly.",packaging,positive,0.8363,0.55,0.9038
+T053,multi,mixed,"It absorbs quickly and smells nice, but it did not improve my skin at all.",texture_finish,negative,0.6879,0.5,0.8519
+T053,multi,mixed,"It absorbs quickly and smells nice, but it did not improve my skin at all.",fragrance_smell,negative,0.798,0.6,0.8273
+T054,boundary,none_expected,I have very dry skin and bought this because everyone recommended it.,NONE,NONE,,,
+T055,boundary,texture_finish_positive,"I have oily skin, but this product does not make my face greasy.",texture_finish,neutral,0.7886,0.5,0.4537
+T056,boundary,efficacy_results_positive,It calmed the redness on my cheeks and made my skin look healthier.,efficacy_results,positive,0.6858,0.55,0.9347
+T056,boundary,efficacy_results_positive,It calmed the redness on my cheeks and made my skin look healthier.,texture_finish,positive,0.5295,0.5,0.9302
+T056,boundary,efficacy_results_positive,It calmed the redness on my cheeks and made my skin look healthier.,irritation_sensitivity,positive,0.7852,0.75,0.9201
+T057,boundary,none_expected,I usually have sensitive skin and I bought this during a sale.,NONE,NONE,,,
+T058,boundary,none_expected,The ingredient list contains niacinamide and ceramides.,NONE,NONE,,,
+T059,boundary,none_expected,I gave it five stars because my friend recommended it.,NONE,NONE,,,
+T060,boundary,hydration_dryness_negative,"Even though I have combination skin, this product made my cheeks feel dry.",hydration_dryness,negative,0.8752,0.8,0.8634
+T060,boundary,hydration_dryness_negative,"Even though I have combination skin, this product made my cheeks feel dry.",texture_finish,negative,0.6842,0.5,0.9352
+T061,boundary,irritation_sensitivity_negative,My face started burning right after I applied it.,irritation_sensitivity,negative,0.8315,0.75,0.9499

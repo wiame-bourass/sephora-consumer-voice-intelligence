@@ -1,0 +1,25 @@
+{
+  "random_seed": 42,
+  "review_files": [
+    "reviews_0-250.csv",
+    "reviews_250-500.csv",
+    "reviews_500-750.csv",
+    "reviews_750-1250.csv",
+    "reviews_1250-end.csv"
+  ],
+  "product_file": "product_info.csv",
+  "primary_category": "Skincare",
+  "support_threshold_business": 30,
+  "min_words_for_llm": 5,
+  "llm": {
+    "backend": "http_chat_completions",
+    "prompt_version": "absa_v2_llm_first",
+    "temperature": 0.0,
+    "batch_size": 4,
+    "request_timeout_seconds": 120,
+    "max_retries": 3,
+    "retry_backoff_seconds": 2.0,
+    "smoke_test_segments": 200,
+    "checkpoint_batches": 50
+  }
+}

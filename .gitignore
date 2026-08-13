@@ -1,0 +1,37 @@
+.venv/
+.env
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.DS_Store
+
+# Raw dataset
+data/raw/*
+
+# Gros intermédiaires non nécessaires sur GitHub
+data/interim/segment_parts/*
+data/interim/benchmark_200/*
+
+# Artifacts modèles trop volumineux pour GitHub
+artifacts/*
+!artifacts/.gitkeep
+
+# Reports générés
+reports/figures/*
+reports/tables/*
+
+# Garder la structure des dossiers data
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+!data/qa/.gitkeep
+
+# Garder les dossiers reports
+!reports/figures/.gitkeep
+!reports/tables/.gitkeep
+
+# Garder uniquement les résultats finaux du portfolio
+!reports/figures/final/
+!reports/figures/final/**
+
+!reports/tables/final/
+!reports/tables/final/**
