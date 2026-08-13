@@ -108,6 +108,8 @@ Les visualisations finales sont dans `reports/figures/final/`.
 
 Une petite application permet de tester DistilBERT V2 sur un avis libre et de consulter quelques agrégations business.
 
+Les poids DistilBERT ne sont pas versionnés dans le dépôt en raison de leur taille. Pour utiliser l'analyse d'un avis, exécuter le notebook `08_MODEL_V2_WEIGHTED_THRESHOLDS_COLAB.ipynb` afin de générer les artifacts nécessaires dans `artifacts/`.
+
 Depuis la racine du projet :
 
 ```bash

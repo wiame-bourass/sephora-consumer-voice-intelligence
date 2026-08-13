@@ -329,7 +329,7 @@ st.title("💄 Sephora Consumer Voice Intelligence")
 
 st.caption(
     "Aspect-Based Sentiment Analysis powered by a lightweight "
-    "DistilBERT student distilled from GPT-OSS 20B pseudo-labels."
+    "DistilBERT V2 trained on GPT-OSS 20B pseudo-labels."
 )
 
 tab_analyze, tab_insights = st.tabs(
@@ -462,7 +462,7 @@ with tab_analyze:
                 )
 
                 st.caption(
-                    "The probability is the student model output. "
+                    "The probability is the DistilBERT model output. "
                     "The threshold is aspect-specific and was selected "
                     "on validation data."
                 )
